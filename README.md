@@ -16,6 +16,8 @@ Finally, we have the AXI EthernetLite module, which connects to the "custom" MII
 
 
 
-The pinout is just taken from the open source github, otherwise, just take a look at their schematics for the 25 series.
+The pinout is just taken from the open-source GitHub; otherwise, just take a look at their schematics for the 25 series.
 This can send and receive TCP packets, and can of course also do UDP.
 The Ethernet PHY was a random one I bought online, which turned out to be using RMII (which I did not notice, my fault) and hence the MII to RMII IP.
+
+Note: The folder name following_shit was just something I called it after having messed around a lot in a different Vivado, and then chose that this time I would follow the shit from start to finish (my apologies for not renaming it before pushing it to my repository).
