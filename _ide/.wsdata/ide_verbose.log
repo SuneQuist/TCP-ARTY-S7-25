@@ -1,0 +1,641 @@
+2026-06-20 14:56:30 [debug] : --------------------------------------------------------------------------------- 
+2026-06-20 14:56:30 [debug] : C:\Vivado_Projects\Vivado\following_shit 
+2026-06-20 14:56:30 [debug] : --------------------------------------------------------------------------------- 
+2026-06-20 14:56:30 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\sunev\.Xilinx\Vitis\2025.2\logs\ide.log 
+2026-06-20 14:56:30 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\sunev\.Xilinx\Vitis\2025.2\.wsdata\ide_verbose.log 
+2026-06-20 14:56:30 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2026-06-20 14:56:30 [debug] : [Application Examples Provider] refresh requested. 
+2026-06-20 14:56:30 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2026-06-20 14:56:30 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2026-06-20 14:56:30 [debug] : [Logger UI]  Update Log Level  called 
+2026-06-20 14:56:30 [debug] : [Application Examples Provider] common calling method requested. 
+2026-06-20 14:56:30 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-06-20 14:56:30 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-06-20 14:56:30 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-06-20 14:56:30 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-06-20 14:56:30 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2026-06-20 14:56:30 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:30 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : Marking the target connection as default Local 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : Marking the target connection as default Linux Agent 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : Marking the target connection as default XRTServer 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : Marking the target connection as default LinuxEmulation 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : Marking the target connection as default QEMU 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : created .gitignore file for the project C:\Vivado_Projects\Vivado\following_shit 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : updated workspace path: C:\Vivado_Projects\Vivado\following_shit 
+2026-06-20 14:56:30 [debug] : RIGEL SERVER 14:56:30 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw 
+2026-06-20 14:56:30 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2026-06-20 14:56:30 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["511d4b30-df92-4957-87c4-043401412924",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:30 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-06-20 14:56:30 [debug] : [ProjectDecorator] tree decoration updated 
+2026-06-20 14:56:30 [debug] : [ProjectCache] Project location updated to undefined 
+2026-06-20 14:56:30 [debug] : [ProjectDecorator] tree decoration updated 
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "{\r\n    \"clangd.fallbackFlags\": []\r\n}",
+      "rangeOffset": 0,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:30 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Vivado_Projects/Vivado/following_shit/_ide/settings.json"}
+2026-06-20 14:56:31 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-06-20 14:56:32 [debug] : RIGEL SERVER 14:56:32 INFO  : [INFO]: Initializing repositories 
+2026-06-20 14:56:32 [debug] : RIGEL SERVER 14:56:32 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+14:56:32 INFO  : Successfully created repository data at C:\Vivado_Projects\Vivado\following_shit/_ide\.wsdata 
+2026-06-20 14:56:32 [debug] : RIGEL SERVER 14:56:32 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\sunev\AppData\Local\Temp\rigel_lopper_sunev17629832351103254203 -r C:\Vivado_Projects\Vivado\following_shit\_ide\.wsdata\.repo.yaml 
+2026-06-20 14:56:32 [debug] : RIGEL SERVER 14:56:32 INFO  : Embedded Template List generated successfully 
+2026-06-20 14:56:32 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-06-20 14:56:32 [debug] : [Application Examples Provider] common calling method completed. 
+2026-06-20 14:56:32 [debug] : [Application Examples Provider] refresh completed. 
+2026-06-20 14:56:42 [debug] : Widget was activated, but did not accept focus after 2000ms: rigel-files 
+2026-06-20 14:56:46 [debug] : socket closed 
+2026-06-20 14:56:46 [debug] : closing connection for 1 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/localization-server'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/os'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/commands'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/logger'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/messageService'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2026-06-20 14:56:46 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/ChannelCloseService'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/envs'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/workspace'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/keyboard'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/stopwatch'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/application'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/i18n'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/quickInput'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/project'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/component'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/feature-registry'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/debugger'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/debug'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/quickPick'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/task'. 
+2026-06-20 14:56:46 [debug] : a client has disconnected - removed from list: 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/search'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/request-service'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/cli-preferences'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/server'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/repository'. 
+2026-06-20 14:56:46 [debug] : [Repository Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/program_flash'. 
+2026-06-20 14:56:46 [debug] : [Program Flash Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/build'. 
+2026-06-20 14:56:46 [debug] : [Build Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/notification'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/aie'. 
+2026-06-20 14:56:46 [debug] : [AIE Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/analysis'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/linker-script'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2026-06-20 14:56:46 [debug] : [Logger Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/platform'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/device'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/report'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/directive'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls_flow'. 
+2026-06-20 14:56:46 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/open-ai/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/mcpservermanager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/languageModelRegistryDelegatePath'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/languageModelDelegatePath'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/rigel-ai/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/anthropic/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/google/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/huggingface/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/llamafilemanager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/ollama/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/vercel-ai/language-model-manager'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/config-file'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/elf-reader'. 
+2026-06-20 14:56:46 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/project-utils'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/bootgen'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/report-model'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/scanoss/service'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/hls-config'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/keyStore'. 
+2026-06-20 14:56:46 [debug] : Closing channel on service path '/services/languagePackService'. 
+2026-06-20 14:56:48 [debug] : creating connection for 1 
+2026-06-20 14:56:49 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : a client has connected - adding it to the list: 
+2026-06-20 14:56:49 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2026-06-20 14:56:49 [debug] : [Workspace Server] Initializing the frontend client. 
+2026-06-20 14:56:49 [debug] : [Debugger Server] Initializing the frontend client. 
+2026-06-20 14:56:49 [debug] : [Repository Server] Initializing the frontend client. 
+2026-06-20 14:56:49 [debug] : [Logger Server] Initializing the frontend client. 
+2026-06-20 14:56:49 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2026-06-20 14:56:49 [debug] : getTasks(): about to return task information for 0 tasks 
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:listAieExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:listHlsExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : Frontend u.initialize: 1.4 ms [Finished 2.277 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend g.initialize: 0.9 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend g.initialize: 0.0 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend n.initialize: 0.1 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend Object.initialize: 0.1 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.initialize: 0.0 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend C.initialize: 0.0 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.initialize: 0.0 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend w.initialize: 0.0 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend d.initialize: 0.0 ms [Finished 2.279 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend y.initialize: 2.4 ms [Finished 2.281 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend d.initialize: 0.1 ms [Finished 2.281 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.initialize: 0.0 ms [Finished 2.281 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Rigel Utils Client] Initializaton completed. 
+2026-06-20 14:56:49 [debug] : [Workspace Client] Initializaton completed. 
+2026-06-20 14:56:49 [debug] : [Debugger Client] Initializaton completed. 
+2026-06-20 14:56:49 [debug] : [Repository Client] Initializaton completed. 
+2026-06-20 14:56:49 [debug] : [Repository Client] Ready to accept calls from the UI widgets. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider]  updating the model on initialization. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:listAieExampleRepos from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:listHlsExampleRepos from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Program Flash Client]  {"0":"Initializaton completed and program flash service is ready in the frontend to receive program flash logs."}
+2026-06-20 14:56:49 [debug] : [Build Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2026-06-20 14:56:49 [debug] : [AIE Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2026-06-20 14:56:49 [debug] : [Logger Client] Initializaton completed. 
+2026-06-20 14:56:49 [debug] : Initializaton completed and build service is ready in the frontend to receive build logs. 
+2026-06-20 14:56:49 [debug] : [HLS Flow Client] Initialization completed. 
+2026-06-20 14:56:49 [debug] : Frontend T.initialize: 49.2 ms [Finished 2.331 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend n.initialize: 0.0 ms [Finished 2.331 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend n.initialize: 0.2 ms [Finished 2.331 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_aie_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":3,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_hls_examples","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":4,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/sunev/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2026-06-20 14:56:49 [debug] : [Program Flash Output] Adding listeners to program flash service. 
+2026-06-20 14:56:49 [debug] : Frontend T.initialize: 0.0 ms [Finished 2.331 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Program Device Output] Adding listeners to program device service. 
+2026-06-20 14:56:49 [debug] : Frontend T.initialize: 0.1 ms [Finished 2.331 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Build Output] Adding listeners to build service. 
+2026-06-20 14:56:49 [debug] : Frontend z.initialize: 0.3 ms [Finished 2.332 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Launch Menu] Adding listeners to manage launch session. 
+2026-06-20 14:56:49 [debug] : [Debug Manager] A debug session listener is registered to receive launch events. 
+2026-06-20 14:56:49 [debug] : Frontend X.initialize: 0.2 ms [Finished 2.332 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend h.initialize: 0.1 ms [Finished 2.332 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend g.initialize: 0.2 ms [Finished 2.332 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend h.initialize: 0.0 ms [Finished 2.332 s after frontend start] 
+2026-06-20 14:56:49 [debug] : RIGEL SERVER 14:56:49 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\sunev\AppData\Local\Temp\rigel_lopper_sunev13194282562056893346 -r C:\Vivado_Projects\Vivado\following_shit\_ide\.wsdata\.repo.yaml 
+2026-06-20 14:56:49 [debug] : Adding listeners to preference service. 
+2026-06-20 14:56:49 [debug] : Frontend h.initialize: 0.0 ms [Finished 2.332 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2026-06-20 14:56:49 [debug] : [Platform Output] Adding listeners to build service. 
+2026-06-20 14:56:49 [debug] : Frontend B.initialize: 0.1 ms [Finished 2.333 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Elf Reader Client]  {"0":"Rigel Utils Server registered"}
+2026-06-20 14:56:49 [debug] : Frontend v.initialize: 4.1 ms [Finished 2.337 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.initialize: 0.1 ms [Finished 2.337 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [HLS Output] Adding listeners to HLS service. 
+2026-06-20 14:56:49 [debug] : Frontend m.initialize: 0.1 ms [Finished 2.337 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend c.initialize: 0.1 ms [Finished 2.341 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.initialize: 0.3 ms [Finished 2.341 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5b1c490a-06d6-49bb-b60f-460cb696c52e",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] vitis_libraries:false 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2026-06-20 14:56:49 [debug] : [Elf Reader Client] Initializaton completed. 
+2026-06-20 14:56:49 [debug] : Frontend J.configure: 10.3 ms [Finished 2.352 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.configure: 0.0 ms [Finished 2.352 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : Frontend u.configure: 0.2 ms [Finished 2.352 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend $.configure: 0.0 ms [Finished 2.352 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Application UI init preferences 
+2026-06-20 14:56:49 [debug] : [Bootgen Output] Adding listeners to bootgen service. 
+2026-06-20 14:56:49 [debug] : A command rigel.edit.config is already registered. 
+2026-06-20 14:56:49 [debug] : Frontend commands.onStart: 18.8 ms [Finished 2.371 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-06-20 14:56:49 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["e477395f-40bf-44ea-9c40-03dbb8f427d8",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_hls_examples 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh completed. 
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : Application UI init preferences 
+2026-06-20 14:56:49 [debug] : Frontend keybindings.onStart: 44.0 ms [Finished 2.415 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend menus.onStart: 8.6 ms [Finished 2.424 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 5.5 ms [Finished 2.430 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.430 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.onStart: 21.6 ms [Finished 2.452 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend g.onStart: 6.5 ms [Finished 2.458 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend J.onStart: 0.1 ms [Finished 2.459 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.onStart: 0.5 ms [Finished 2.460 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 6.5 ms [Finished 2.466 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend n.onStart: 0.1 ms [Finished 2.467 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.1 ms [Finished 2.467 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend u.onStart: 0.9 ms [Finished 2.468 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.onStart: 0.0 ms [Finished 2.468 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend $.onStart: 0.2 ms [Finished 2.468 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.onStart: 0.0 ms [Finished 2.468 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend d.onStart: 0.1 ms [Finished 2.469 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.3 ms [Finished 2.469 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend u.onStart: 0.1 ms [Finished 2.469 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend n.onStart: 0.1 ms [Finished 2.469 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend m.onStart: 0.1 ms [Finished 2.469 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend C.onStart: 0.0 ms [Finished 2.469 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend c.onStart: 0.2 ms [Finished 2.470 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend v.onStart: 0.0 ms [Finished 2.470 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend w.onStart: 0.0 ms [Finished 2.470 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend g.onStart: 0.2 ms [Finished 2.470 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend s.onStart: 0.2 ms [Finished 2.470 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend x.onStart: 0.2 ms [Finished 2.471 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend v.onStart: 0.2 ms [Finished 2.471 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend g.onStart: 0.0 ms [Finished 2.471 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend $.onStart: 0.1 ms [Finished 2.471 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.472 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend h.onStart: 0.0 ms [Finished 2.472 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.onStart: 0.0 ms [Finished 2.472 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend w.onStart: 0.1 ms [Finished 2.472 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend Object.onStart: 0.1 ms [Finished 2.472 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.onStart: 0.0 ms [Finished 2.473 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend T.onStart: 1.1 ms [Finished 2.474 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.474 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.3 ms [Finished 2.474 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend H.onStart: 0.1 ms [Finished 2.474 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend $.onStart: 0.0 ms [Finished 2.474 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend n.onStart: 0.1 ms [Finished 2.475 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend a.onStart: 0.1 ms [Finished 2.475 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend $.onStart: 0.1 ms [Finished 2.475 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-06-20 14:56:49 [debug] : [Feature Registry] Reading early access data from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\early-access\early-access.json 
+2026-06-20 14:56:49 [debug] : [Feature Registry] Reading early access data from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\early-access\early-access.json 
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getHlsExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] vitis_hls_examples:false 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] vitis_libraries:false 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getHlsExampleTemplateTree from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider]  Application repository status:2 for id:ai_engine_test_harness 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2026-06-20 14:56:49 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2026-06-20 14:56:49 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b] Waiting for backend deployment: 21.5 ms [Finished 2.494 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] vitis_examples:false 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] installed_examples:true 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] ai_engine_test_harness:false 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] vitis_libraries:false 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-06-20 14:56:49 [debug] : [Repository Service] Executing method:getAppTemplateTree from frontend. {"0":"request:"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh completed. 
+2026-06-20 14:56:49 [debug] : [Repository Server] Executing method:getAppTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b] Sync of 18 plugins: 39.5 ms [Finished 2.534 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh completed. 
+2026-06-20 14:56:49 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Vivado_Projects\\Vitis\\followig_shit","executionMode":0} 
+2026-06-20 14:56:49 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Vivado_Projects\Vitis\followig_shit' in the server from service. 
+2026-06-20 14:56:49 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["25f62751-f387-431e-ab39-968374313cc0",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : Linked preference "workbench.colorCustomizations" not found. 
+2026-06-20 14:56:49 [debug] : Frontend f.onStart took longer than the expected maximum 100 milliseconds: 178.6 ms [Finished 2.654 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend c.onStart: 0.1 ms [Finished 2.654 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend y.onStart: 1.3 ms [Finished 2.656 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [hosted-plugin: 6292] PLUGIN_HOST(6292) starting instance 
+2026-06-20 14:56:49 [debug] : Frontend w.onStart: 0.1 ms [Finished 2.656 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend B.onStart: 0.0 ms [Finished 2.656 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend u.onStart: 0.5 ms [Finished 2.673 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.5 ms [Finished 2.674 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.1 ms [Finished 2.674 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.674 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend p.onStart: 6.6 ms [Finished 2.681 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend d.onStart: 0.2 ms [Finished 2.681 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend u.onStart: 0.0 ms [Finished 2.682 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend E.onStart: 0.5 ms [Finished 2.682 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend d.onStart: 0.0 ms [Finished 2.682 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend u.onStart: 0.1 ms [Finished 2.683 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend c.onStart: 0.0 ms [Finished 2.683 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend c.onStart: 0.0 ms [Finished 2.683 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.0 ms [Finished 2.683 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-nano 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-mini 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4-turbo 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o-mini 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-7-sonnet-20250219 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-5-haiku-20241022 
+2026-06-20 14:56:49 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-opus-20240229 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.1 ms [Finished 2.684 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.684 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Start frontend contributions: 433.8 ms [Finished 2.684 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Changed application state from 'init' to 'started_contributions'. 
+2026-06-20 14:56:49 [debug] : Changed application state from 'started_contributions' to 'attached_shell'. 
+2026-06-20 14:56:49 [debug] : >>> Restoring the layout state... 
+2026-06-20 14:56:49 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-06-20 14:56:49 [debug] : RIGEL SERVER 14:56:49 INFO  : Embedded Template List generated successfully 
+2026-06-20 14:56:49 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2026-06-20 14:56:49 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["3727de78-adb9-43ab-ac12-694781e54b1d",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-06-20 14:56:49 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 49,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 85,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] common calling method completed. 
+2026-06-20 14:56:49 [debug] : [Application Examples Provider] refresh completed. 
+2026-06-20 14:56:49 [debug] : <<< Nothing to restore. 
+2026-06-20 14:56:49 [debug] : Frontend A.initializeLayout: 9.5 ms [Finished 2.806 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend v.initializeLayout: 6.4 ms [Finished 2.813 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend f.initializeLayout: 2.4 ms [Finished 2.815 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend Object.initializeLayout: 0.0 ms [Finished 2.815 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend $.initializeLayout: 2.7 ms [Finished 2.818 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend w.initializeLayout: 5.7 ms [Finished 2.823 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend _.initializeLayout: 3.2 ms [Finished 2.827 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend c.initializeLayout: 4.2 ms [Finished 2.831 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend E.initializeLayout: 8.9 ms [Finished 2.841 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Repository Examples UI] in on initialize layout method. 
+2026-06-20 14:56:49 [debug] : Frontend R.initializeLayout: 3.9 ms [Finished 2.845 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend u.initializeLayout: 2.4 ms [Finished 2.847 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend h.initializeLayout: 0.0 ms [Finished 2.847 s after frontend start] 
+2026-06-20 14:56:49 [debug] : Frontend D.initializeLayout: 9.2 ms [Finished 2.856 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [ProjectDecorator] tree decoration updated 
+2026-06-20 14:56:49 [debug] : [ProjectCache] Project location updated to undefined 
+2026-06-20 14:56:49 [debug] : [ProjectDecorator] tree decoration updated 
+2026-06-20 14:56:49 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-06-20 14:56:49 [debug] : Frontend H.initializeLayout: 83.1 ms [Finished 2.939 s after frontend start] 
+2026-06-20 14:56:49 [debug] : [Library Api Contribution] in on initialize layout method. 
+2026-06-20 14:56:49 [debug] : Frontend g.initializeLayout: 4.7 ms [Finished 2.944 s after frontend start] 
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:49 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : Initialize the workbench layout: 303.2 ms [Finished 2.995 s after frontend start] 
+2026-06-20 14:56:50 [debug] : Changed application state from 'attached_shell' to 'initialized_layout'. 
+2026-06-20 14:56:50 [debug] : Frontend d.onDidInitializeLayout: 0.0 ms [Finished 2.996 s after frontend start] 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b] Loading plugin contributions 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][eclipse-cdt.serial-monitor]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.json-language-features]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][pkief.material-icon-theme]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.git-base]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][eamodio.gitlens]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.tcf-debug]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][twxs.cmake]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-config]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-hls-l1-library]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-hls-pragma]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-hls-verilog-vhdl-support]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-output]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.cpp]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.json]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][llvm-vs-code-extensions.vscode-clangd]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][webfreak.debug]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.git]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.make]: Loaded contributions. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b] Load contributions of 18 plugins: 265.4 ms [Finished 3.264 s after frontend start] 
+2026-06-20 14:56:50 [debug] : Frontend c.onDidInitializeLayout: 7.6 ms [Finished 3.272 s after frontend start] 
+2026-06-20 14:56:50 [debug] : Frontend n.onDidInitializeLayout: 1.9 ms [Finished 3.275 s after frontend start] 
+2026-06-20 14:56:50 [debug] : Frontend T.onDidInitializeLayout: 8.9 ms [Finished 3.285 s after frontend start] 
+2026-06-20 14:56:50 [debug] : Frontend p.onDidInitializeLayout: 3.7 ms [Finished 3.294 s after frontend start] 
+2026-06-20 14:56:50 [debug] : Frontend h.onDidInitializeLayout: 0.1 ms [Finished 3.295 s after frontend start] 
+2026-06-20 14:56:50 [debug] : 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope 
+2026-06-20 14:56:50 [debug] : a registered grammar configuration for 'cpp' language is overridden 
+2026-06-20 14:56:50 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-06-20 14:56:50 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 4,
+        "startColumn": 29,
+        "endLineNumber": 14,
+        "endColumn": 6
+      },
+      "rangeLength": 310,
+      "text": "{\r\n        \"**/.git/objects/**\": true,\r\n        \"**/.git/subtree-cache/**\": true,\r\n        \"**/_build/**\": true,\r\n        \"**/build/**\": true,\r\n        \"**/export/**\": true,\r\n        \"**/hls/impl/**\": true,\r\n        \"**/hls/syth/**\": true,\r\n        \"**/hls/syn/**\": true,\r\n        \"**/hls/csim/**\": true\r\n    }",
+      "rangeOffset": 124,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : getTasks(): about to return task information for 0 tasks 
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/init() 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(serial-monitor@1.0.2 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(json-language-features@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(material-icon-theme@5.15.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(git-base@1.95.3 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(gitlens@11.7.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(tcf-debug@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(cmake@0.0.17 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(vitis-config@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(vitis-hls-l1-library@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(vitis-hls-pragma@0.6.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(vitis-hls-verilog-vhdl-support@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(vitis-output@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(cpp@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(json@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(vscode-clangd@0.1.33 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(debug@0.27.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(git@1.95.3 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): initializing(make@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2026-06-20 14:56:50 [debug] : Debugger contribution has been registered: tcf-debug 
+2026-06-20 14:56:50 [debug] : Debugger contribution has been registered: gdb 
+2026-06-20 14:56:50 [debug] : Debugger contribution has been registered: lldb-mi 
+2026-06-20 14:56:50 [debug] : Debugger contribution has been registered: mago-mi 
+2026-06-20 14:56:50 [debug] : Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2026-06-20 14:56:50 [debug] : Unsupported activation events: onEditSession:file, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git-base\extension\dist\extension.js) 
+2026-06-20 14:56:50 [debug] : Calling activation function on plugin Git Base (built-in) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git\extension\dist\main) 
+2026-06-20 14:56:50 [debug] : Calling activation function on plugin Git (built-in) 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b] Starting plugins. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][eclipse-cdt.serial-monitor]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.json-language-features]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][pkief.material-icon-theme]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.git-base]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][eamodio.gitlens]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.tcf-debug]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][twxs.cmake]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-config]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-hls-l1-library]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-hls-pragma]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-hls-verilog-vhdl-support]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][amd.vitis-output]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.cpp]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.json]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][webfreak.debug]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.git]: Started plugin. 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b][vscode.make]: Started plugin. 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension\desktop\extension.cjs) 
+2026-06-20 14:56:50 [debug] : PLUGIN_HOST(6292): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\eclipse-cdt.serial-monitor\extension\dist\desktop\extension.js) 
+2026-06-20 14:56:50 [debug] : Calling activation function on plugin Web and Desktop Serial Monitor 
+2026-06-20 14:56:50 [debug] : [INFO] 2026-06-20T12:56:50.730Z - Translations initialized. 
+2026-06-20 14:56:50 [debug] : [INFO] 2026-06-20T12:56:50.732Z - Extension activated! 
+2026-06-20 14:56:50 [debug] : Calling activation function on plugin Material Icon Theme 
+2026-06-20 14:56:50 [debug] : Calling activation function on plugin JSON Language Features (built-in) 
+2026-06-20 14:56:50 [debug] : Calling activation function on plugin GitLens — Git supercharged 
+2026-06-20 14:56:50 [debug] : [47adf27a-bfea-46a5-b242-3c25b70ddb4b] Start of 18 plugins: 499.3 ms [Finished 3.813 s after frontend start] 
+2026-06-20 14:56:50 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-06-20 14:56:51 [debug] : Widget was activated, but did not accept focus after 2000ms: rigel-files 
+2026-06-20 14:56:52 [debug] : Frontend H.onDidInitializeLayout took longer than the expected maximum 100 milliseconds: 2263.2 ms [Finished 5.558 s after frontend start] 
+2026-06-20 14:56:52 [debug] : Frontend P.onDidInitializeLayout: 0.1 ms [Finished 5.558 s after frontend start] 
+2026-06-20 14:56:52 [debug] : Frontend D.onDidInitializeLayout: 2.0 ms [Finished 5.560 s after frontend start] 
+2026-06-20 14:56:52 [debug] : Frontend R.onDidInitializeLayout: 0.2 ms [Finished 5.561 s after frontend start] 
+2026-06-20 14:56:52 [debug] : Frontend v.onDidInitializeLayout: 0.0 ms [Finished 5.561 s after frontend start] 
+2026-06-20 14:56:52 [debug] : Frontend h.onDidInitializeLayout: 0.2 ms [Finished 5.563 s after frontend start] 
+2026-06-20 14:56:53 [debug] : Frontend application start: 4053.7 ms [Finished 53.373 s after backend start] 
+2026-06-20 14:56:53 [debug] : Replace loading indicator with ready workbench UI (animation): 811.2 ms [Finished 6.375 s after frontend start] 
+2026-06-20 14:56:53 [debug] : Changed application state from 'initialized_layout' to 'ready'. 
+2026-06-20 14:56:53 [debug] : [Workspace Server] In 'forceSetWorkspace' with connection:[object Object] request:{"path":"C:\\Vivado_Projects\\Vitis\\followig_shit","executionMode":0} 

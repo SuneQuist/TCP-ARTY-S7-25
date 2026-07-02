@@ -1,0 +1,15 @@
+14:56:30 INFO  : updated workspace path: C:\Vivado_Projects\Vivado\following_shit
+14:56:30 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw
+14:56:32 INFO  : [INFO]: Initializing repositories
+14:56:32 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+14:56:32 INFO  : Successfully created repository data at C:\Vivado_Projects\Vivado\following_shit/_ide\.wsdata
+14:56:32 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\sunev\AppData\Local\Temp\rigel_lopper_sunev17629832351103254203 -r C:\Vivado_Projects\Vivado\following_shit\_ide\.wsdata\.repo.yaml
+14:56:32 INFO  : Embedded Template List generated successfully
+14:56:49 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\sunev\AppData\Local\Temp\rigel_lopper_sunev13194282562056893346 -r C:\Vivado_Projects\Vivado\following_shit\_ide\.wsdata\.repo.yaml
+14:56:49 INFO  : Embedded Template List generated successfully
+14:56:53 INFO  : Marking the target connection as default Local
+14:56:53 INFO  : Marking the target connection as default Linux Agent
+14:56:53 INFO  : Marking the target connection as default XRTServer
+14:56:53 INFO  : Marking the target connection as default LinuxEmulation
+14:56:53 INFO  : Marking the target connection as default QEMU
+14:56:53 INFO  : created .gitignore file for the project C:\Vivado_Projects\Vitis\followig_shit

@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Jun 20 15:36:42 2026
+| Host         : Sune running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga324-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_MII2RMII_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of design_1_MII2RMII_0_0 (xilinx.com:user:MII2RMII:1.0 (Rev. 1)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_MII2RMII_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'ETH_MDC'
+
+-Upgrade has added port 'ETH_MDIO'
+
+-Upgrade has added port 'phy_mdc_o'
+
+-Upgrade has added port 'phy_mdio_i'
+
+-Upgrade has added port 'phy_mdio_o'
+
+-Upgrade has added port 'phy_mdio_t'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Jun 20 15:35:16 2026
+| Host         : Sune running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga324-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_MII2RMII_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_MII2RMII_0_0 (xilinx.com:user:MII2RMII:1.0 (Rev. 1)) to current project options.
+
