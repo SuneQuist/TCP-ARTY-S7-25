@@ -1,0 +1,395 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Jun 20 16:22:41 2026
+# Process ID         : 31660
+# Current directory  : C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1
+# Command line       : vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file           : C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/design_1_wrapper.vds
+# Journal file       : C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1\vivado.jou
+# Running On         : Sune
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900KF
+# CPU Frequency      : 3187 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 34193 MB
+# Swap memory        : 21474 MB
+# Total Virtual      : 55668 MB
+# Available Virtual  : 17451 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/src_files/mii2rmii'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/Vivado_Projects/Vivado/following_shit/following_shit.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Vivado_Projects/Vivado/following_shit/following_shit.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_1_wrapper -part xc7s25csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Device 21-403] Loading part xc7s25csga324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 33728
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1335.652 ; gain = 541.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_MII2RMII_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_MII2RMII_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_MII2RMII_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_MII2RMII_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_ethernetlite_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_ethernetlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_ethernetlite_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_ethernetlite_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'phy_rst_n' of module 'design_1_axi_ethernetlite_0_0' is unconnected for instance 'axi_ethernetlite_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:308]
+WARNING: [Synth 8-7023] instance 'axi_ethernetlite_0' of module 'design_1_axi_ethernetlite_0_0' has 34 connections declared, but only 33 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:308]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_intc_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_intc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_intc_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_intc_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_timer_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_timer_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_timer_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'generateout0' of module 'design_1_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:364]
+WARNING: [Synth 8-7071] port 'generateout1' of module 'design_1_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:364]
+WARNING: [Synth 8-7071] port 'pwm0' of module 'design_1_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:364]
+WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'design_1_axi_timer_0_0' has 26 connections declared, but only 23 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:364]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_uartlite_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_uartlite_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:388]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'design_1_axi_uartlite_0_0' has 22 connections declared, but only 21 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:388]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_1' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_clk_wiz_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_1' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_clk_wiz_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_1_3' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_clk_wiz_1_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_1_3' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_clk_wiz_1_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_1_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_proc_sys_reset_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_1_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_proc_sys_reset_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_1_0' is unconnected for instance 'ddr3_proc_sys_reset_1' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:417]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_proc_sys_reset_1_0' is unconnected for instance 'ddr3_proc_sys_reset_1' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:417]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_proc_sys_reset_1_0' is unconnected for instance 'ddr3_proc_sys_reset_1' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:417]
+WARNING: [Synth 8-7023] instance 'ddr3_proc_sys_reset_1' of module 'design_1_proc_sys_reset_1_0' has 10 connections declared, but only 7 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:417]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_2' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_proc_sys_reset_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_2' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_proc_sys_reset_0_2_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'eth_proc_sys_reset_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:425]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'eth_proc_sys_reset_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:425]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'eth_proc_sys_reset_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:425]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'eth_proc_sys_reset_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:425]
+WARNING: [Synth 8-7023] instance 'eth_proc_sys_reset_0' of module 'design_1_proc_sys_reset_0_2' has 10 connections declared, but only 6 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:425]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mdm_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_mdm_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mdm_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_mdm_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'Debug_SYS_Rst' of module 'design_1_mdm_0_0' is unconnected for instance 'mdm_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:434]
+WARNING: [Synth 8-7023] instance 'mdm_0' of module 'design_1_mdm_0_0' has 10 connections declared, but only 9 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:434]
+INFO: [Synth 8-6157] synthesizing module 'design_1_microblaze_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_microblaze_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_AWADDR' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_AWPROT' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_AWVALID' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_WDATA' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_WSTRB' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_WVALID' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7071] port 'M_AXI_IP_BREADY' of module 'design_1_microblaze_0_0' is unconnected for instance 'microblaze_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'design_1_microblaze_0_0' has 71 connections declared, but only 63 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:446]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:723]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dlmb_bram_if_cntlr_4' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_dlmb_bram_if_cntlr_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dlmb_bram_if_cntlr_4' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_dlmb_bram_if_cntlr_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dlmb_v10_4' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_dlmb_v10_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dlmb_v10_4' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_dlmb_v10_4_stub.v:6]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'design_1_dlmb_v10_4' is unconnected for instance 'dlmb_v10' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:848]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'design_1_dlmb_v10_4' has 25 connections declared, but only 24 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:848]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ilmb_bram_if_cntlr_4' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_ilmb_bram_if_cntlr_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ilmb_bram_if_cntlr_4' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_ilmb_bram_if_cntlr_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ilmb_v10_4' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_ilmb_v10_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ilmb_v10_4' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_ilmb_v10_4_stub.v:6]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'design_1_ilmb_v10_4' is unconnected for instance 'ilmb_v10' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:894]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'design_1_ilmb_v10_4' has 25 connections declared, but only 24 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:894]
+INFO: [Synth 8-6157] synthesizing module 'design_1_lmb_bram_4' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_lmb_bram_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_lmb_bram_4' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_lmb_bram_4_stub.v:6]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'design_1_lmb_bram_4' is unconnected for instance 'lmb_bram' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:919]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'design_1_lmb_bram_4' is unconnected for instance 'lmb_bram' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:919]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'design_1_lmb_bram_4' has 16 connections declared, but only 14 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:919]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_1K0VQXK' (0#1) [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:723]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mig_7series_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_mig_7series_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mig_7series_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_mig_7series_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_0' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_1' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_2' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_3' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'ui_addn_clk_4' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'mmcm_locked' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'app_sr_active' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'app_ref_ack' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'app_zq_ack' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7071] port 'device_temp' of module 'design_1_mig_7series_0_0' is unconnected for instance 'mig_7series_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+WARNING: [Synth 8-7023] instance 'mig_7series_0' of module 'design_1_mig_7series_0_0' has 69 connections declared, but only 57 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:532]
+INFO: [Synth 8-6157] synthesizing module 'design_1_smartconnect_0_0' [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_smartconnect_0_0' (0#1) [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/.Xil/Vivado-31660-Sune/realtime/design_1_smartconnect_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M02_AXI_awprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M02_AXI_arprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M03_AXI_awprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M03_AXI_arprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M04_AXI_awprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7071] port 'M04_AXI_arprot' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'design_1_smartconnect_0_0' has 138 connections declared, but only 130 given [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:590]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1465.039 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0/design_1_microblaze_0_0_in_context.xdc] for cell 'design_1_i/microblaze_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_intc_0_0/design_1_axi_intc_0_0/design_1_axi_intc_0_0_in_context.xdc] for cell 'design_1_i/axi_intc_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_intc_0_0/design_1_axi_intc_0_0/design_1_axi_intc_0_0_in_context.xdc] for cell 'design_1_i/axi_intc_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_mdm_0_0/design_1_mdm_0_0/design_1_mdm_0_0_in_context.xdc] for cell 'design_1_i/mdm_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_mdm_0_0/design_1_mdm_0_0/design_1_mdm_0_0_in_context.xdc] for cell 'design_1_i/mdm_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_4/design_1_dlmb_v10_4/design_1_dlmb_v10_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_dlmb_v10_4/design_1_dlmb_v10_4/design_1_dlmb_v10_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_ilmb_v10_4/design_1_ilmb_v10_4/design_1_dlmb_v10_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_ilmb_v10_4/design_1_ilmb_v10_4/design_1_dlmb_v10_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_4/design_1_dlmb_bram_if_cntlr_4/design_1_dlmb_bram_if_cntlr_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_4/design_1_dlmb_bram_if_cntlr_4/design_1_dlmb_bram_if_cntlr_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_4/design_1_ilmb_bram_if_cntlr_4/design_1_dlmb_bram_if_cntlr_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_ilmb_bram_if_cntlr_4/design_1_ilmb_bram_if_cntlr_4/design_1_dlmb_bram_if_cntlr_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_lmb_bram_4/design_1_lmb_bram_4/design_1_lmb_bram_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_lmb_bram_4/design_1_lmb_bram_4/design_1_lmb_bram_4_in_context.xdc] for cell 'design_1_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/design_1_smartconnect_0_0/design_1_smartconnect_0_0_in_context.xdc] for cell 'design_1_i/smartconnect_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/design_1_smartconnect_0_0/design_1_smartconnect_0_0_in_context.xdc] for cell 'design_1_i/smartconnect_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/design_1_mig_7series_0_0_in_context.xdc] for cell 'design_1_i/mig_7series_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_mig_7series_0_0/design_1_mig_7series_0_0/design_1_mig_7series_0_0_in_context.xdc] for cell 'design_1_i/mig_7series_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_in_context.xdc] for cell 'design_1_i/ddr3_proc_sys_reset_1'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_in_context.xdc] for cell 'design_1_i/ddr3_proc_sys_reset_1'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_timer_0_0/design_1_axi_timer_0_0/design_1_axi_timer_0_0_in_context.xdc] for cell 'design_1_i/axi_timer_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_timer_0_0/design_1_axi_timer_0_0/design_1_axi_timer_0_0_in_context.xdc] for cell 'design_1_i/axi_timer_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_ethernetlite_0_0/design_1_axi_ethernetlite_0_0/design_1_axi_ethernetlite_0_0_in_context.xdc] for cell 'design_1_i/axi_ethernetlite_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_ethernetlite_0_0/design_1_axi_ethernetlite_0_0/design_1_axi_ethernetlite_0_0_in_context.xdc] for cell 'design_1_i/axi_ethernetlite_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_MII2RMII_0_0/design_1_MII2RMII_0_0/design_1_MII2RMII_0_0_in_context.xdc] for cell 'design_1_i/MII2RMII_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_MII2RMII_0_0/design_1_MII2RMII_0_0/design_1_MII2RMII_0_0_in_context.xdc] for cell 'design_1_i/MII2RMII_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2_in_context.xdc] for cell 'design_1_i/eth_proc_sys_reset_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2_in_context.xdc] for cell 'design_1_i/eth_proc_sys_reset_0'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_3/design_1_clk_wiz_1_3/design_1_clk_wiz_1_3_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_1_3/design_1_clk_wiz_1_3/design_1_clk_wiz_1_3_in_context.xdc] for cell 'design_1_i/clk_wiz_1'
+Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/Vivado_Projects/Vivado/following_shit/following_shit.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Parsing XDC File [C:/Vivado_Projects/Vivado/following_shit/following_shit.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Vivado_Projects/Vivado/following_shit/following_shit.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Vivado_Projects/Vivado/following_shit/following_shit.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1465.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1465.039 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_1_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '12.308', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1465.039 ; gain = 670.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1482.441 ; gain = 688.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1643.672 ; gain = 849.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1644.230 ; gain = 849.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1655.812 ; gain = 861.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |design_1_MII2RMII_0_0         |         1|
+|2     |design_1_axi_ethernetlite_0_0 |         1|
+|3     |design_1_axi_intc_0_0         |         1|
+|4     |design_1_axi_timer_0_0        |         1|
+|5     |design_1_axi_uartlite_0_0     |         1|
+|6     |design_1_clk_wiz_0_1          |         1|
+|7     |design_1_clk_wiz_1_3          |         1|
+|8     |design_1_proc_sys_reset_1_0   |         1|
+|9     |design_1_proc_sys_reset_0_2   |         1|
+|10    |design_1_mdm_0_0              |         1|
+|11    |design_1_microblaze_0_0       |         1|
+|12    |design_1_mig_7series_0_0      |         1|
+|13    |design_1_smartconnect_0_0     |         1|
+|14    |design_1_dlmb_bram_if_cntlr_4 |         1|
+|15    |design_1_dlmb_v10_4           |         1|
+|16    |design_1_ilmb_bram_if_cntlr_4 |         1|
+|17    |design_1_ilmb_v10_4           |         1|
+|18    |design_1_lmb_bram_4           |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |design_1_MII2RMII_0         |     1|
+|2     |design_1_axi_ethernetlite_0 |     1|
+|3     |design_1_axi_intc_0         |     1|
+|4     |design_1_axi_timer_0        |     1|
+|5     |design_1_axi_uartlite_0     |     1|
+|6     |design_1_clk_wiz_0          |     1|
+|7     |design_1_clk_wiz_1          |     1|
+|8     |design_1_dlmb_bram_if_cntlr |     1|
+|9     |design_1_dlmb_v10           |     1|
+|10    |design_1_ilmb_bram_if_cntlr |     1|
+|11    |design_1_ilmb_v10           |     1|
+|12    |design_1_lmb_bram           |     1|
+|13    |design_1_mdm_0              |     1|
+|14    |design_1_microblaze_0       |     1|
+|15    |design_1_mig_7series_0      |     1|
+|16    |design_1_proc_sys_reset_0   |     1|
+|17    |design_1_proc_sys_reset_1   |     1|
+|18    |design_1_smartconnect_0     |     1|
+|19    |LUT1                        |     1|
+|20    |IBUF                        |     6|
+|21    |OBUF                        |     6|
++------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1903.797 ; gain = 1109.535
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1912.957 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1916.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 985fa399
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 1916.602 ; gain = 1281.426
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1916.602 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_Projects/Vivado/following_shit/following_shit.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 20 16:23:20 2026...
